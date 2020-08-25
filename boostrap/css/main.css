@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+header .navbar-brand  img{
+    max-width: 200px;
+}
+
+ header .bg-proyecto {
+    background-color: black;
+    padding-top: 10px;  
+    position: fixed;
+    width: 100%;
+    z-index: 99;
+ }
+
+ header .bg-proyecto .navbar-collapse ul{
+    margin: 0 auto;
+    align-content: center;
+   
+    
+}
+
+header .navbar-collapse{
+    align-items: center;
+}
+
+header .navbar-light .navbar-toggler img{
+    width: 100px;
+    height: 100px;
+}
+
+header .navbar-collapse ul li{
+    padding: 0px 30px;
+}
+
+header .navbar-collapse .navbar-nav .nav-item a{
+    color: #02AAEA;
+    margin-top: 15px;
+}
+header .navbar-collapse .navbar-nav .nav-item a:hover{
+    color: gray;
+}
+
+header .navbar-collapse a img{
+    height: 55px;
+    width: 100px;
+    margin: 0px 30px;
+    margin: 0 auto;
+    
+    
+}
+
+header .carousel-item h5{
+    margin-bottom: 40px;
+    font-size: 30px;
+    color: gray;
+
+}
+header .carousel-item h5 b{
+    color: #02a4e4;
+}
+
+header .carousel-indicators li{
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+}
+
+
+ header .carousel-control-next img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    display: flex-end;
+    color: #02AAEA;
+}
+
+header .carousel-control-prev img{
+    height: 60px;
+    width: 60px;
+    position: relative;
+    
+    
+}
+
+.servicios{
+    max-width: 100%;
+    height: 600px;
+    
+    padding: 40px 40px;
+    
+    background: url(../img/hannah-busing-Zyx1bK9mqmA-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+    
+}
+
+
+
+.servicios h1{
+    text-align: center;
+    color: white;
+    padding: 40px;
+}
+.center-servicios{
+    width: 100%;
+    max-width: 1050px;
+    margin: 0 auto;
+    margin-left: 23%;
+    
+    
+}
+.servicios .center-servicios .row-1 .img{
+    width: 33%;
+    display: inline-block;
+    margin-top: 60px;
+   
+    
+    
+
+}
+.servicios .center-servicios .row-1 text{
+    width: 25%;
+    float: right;
+    color: white;
+    
+}
+.servicios .center-servicios .row-1 .text h2{
+    font-size: 30px;
+  color: white;
+}
+.servicios .center-servicios .row-1 .text p{
+    font-size: 20px;
+    color: white;
+}
+.servicios .center-servicios .row-1 .item-roj{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.servicios .center-servicios .row-2 .img{
+    width: 33%;
+    display: inline-block;
+    
+
+}
+.servicios .center-servicios .row-2 .text h2{
+    font-size: 30px;
+  color: white;
+}
+.servicios .center-servicios .row-2 .text p{
+    font-size: 20px;
+    color: white;
+}
+.servicios .center-servicios .row-3 .text h2{
+    font-size: 30px;
+  color: white;
+}
+.servicios .center-servicios .row-3 .text p{
+    font-size: 20px;
+    color: white;
+}
+
+.servicios .center-servicios .row-2 .item-verde{
+    width: 25%;
+    float: left;
+    text-align: center;
+}
+.servicios .center-servicios .row-3 .item-azul{
+    width: 30%;
+    float: left;
+    
+    text-align: center;
+}
+.servicios .center-servicios .row-3 .img{
+    width: 33%;
+    display: inline-block;
+    
+
+}
+
+
+#registrar{
+    background-image: url(../img/logochimba.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-top: 80px;
+    position: relative;
+}
+ #registrar .formulario{
+     background-color: #02a8eaab;
+     padding: 20px;
+     border-radius: 10px;
+     box-shadow: black;
+     color: black;
+
+ }
+
+ #registrar .ingresar{
+
+    background: white;
+     padding: 10px;
+    font-size: 16px;
+    font-weight: 700!important;
+    color: rgb(49, 17, 17);
+    box-shadow: blue;
+    transition: 0.5s ease-in;
+    
+ }
+ #registrar .ingresar:hover{
+     color: #02AAEA;
+ }
+ #registrar .form-control{
+     background: white;
+     border-style: none;
+     transition: 0.5s ease-in;
+     outline: none;
+     box-shadow: none;
+ }
+ #registrar .form-control::placeholder{
+     color: black;
+ }
+ #registrar .form-control:focus{
+     background: none;
+     box-shadow: none;
+     outline: none;
+ }
+ 
+ #registrar .olvide{
+     color: black;
+     text-decoration-style: none;
+     text-decoration-line: none;
+ }
+
+ #registrar .olvide:hover{
+     color: white;
+     text-decoration-style: none;
+     text-decoration-line: none;
+     cursor: pointer;
+ }
+ #registrar .olvide1{
+    color: black;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    font-size: 20px;
+    font-weight: 700!important;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+    background: #02AAEA;
+}
+
+#registrar .olvide1:hover{
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width:742px) and (min-width: 280px){
+    header .carousel-control-prev img{
+        max-height: 20px;
+        max-width: 20px;
+
+    }
+    header .carousel-control-next img{
+        max-width: 20px;
+        max-height: 20px;
+    }
+
+    header .navbar-collapse .navbar-nav .nav-item a{
+        font-size: 13px;
+    }
+    #registrar{
+        background-image: url(../img/lawrence.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+        padding-top: 80px;
+        position: relative;
+    }
+     
+
+}
+
+
